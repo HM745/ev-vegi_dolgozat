@@ -1,0 +1,46 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(82, 123, 238, 0.158);
+    color: black;
+}
+nav {
+    background-color: rgb(5, 235, 147);
+    padding: 1rem;
+}
+a {
+    text-decoration: none;
+    padding:5px;
+    margin:5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:hover {
+    background-color: brown;
+}
+header {
+    padding: 10pt;
+    text-align: center;
+}
+article {
+    max-width: 900%;
+    margin: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.szoveg img {
+    max-width: 100%;
+}
+@media screen and (max-width:600px) {
+    .szoveg {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+.szoveg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+h2 {
+    text-align: center;
+}
